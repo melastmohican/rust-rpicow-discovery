@@ -14,7 +14,6 @@ use bsp::entry;
 use core::fmt::Debug;
 use defmt::*;
 
-
 use bsp::hal::{
     clocks::{init_clocks_and_plls, Clock},
     pac,
