@@ -11,8 +11,9 @@
 #![no_main]
 
 use bsp::entry;
-use core::fmt::Debug;
 use defmt::*;
+use defmt_rtt as _;
+use panic_probe as _;
 
 use bsp::hal::{
     clocks::{init_clocks_and_plls, Clock},
