@@ -7,7 +7,6 @@
 //! It drives the LCD by pushing data out of six GPIO pins. It may need to be
 //! adapted to your particular board layout and/or pin assignment.
 
-
 #![no_std]
 #![no_main]
 
@@ -22,8 +21,8 @@ use bsp::hal::{
     watchdog::Watchdog,
 };
 
-use rp_pico as bsp;
 use hd44780_driver as hd44780;
+use rp_pico as bsp;
 
 #[entry]
 fn main() -> ! {
