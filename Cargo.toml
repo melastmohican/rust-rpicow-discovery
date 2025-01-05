@@ -18,6 +18,8 @@ rp-pico = "0.9"
 dht-sensor = "0.2.1"
 cortex-m-semihosting = "0.5.0"
 hd44780-driver = "0.4.0"
+ssd1306 = "0.9.0"
+embedded-graphics = "0.8.1"
 
 # but you can use any BSP. Uncomment this to use the pro_micro_rp2040 BSP instead
 # sparkfun-pro-micro-rp2040 = "0.8"

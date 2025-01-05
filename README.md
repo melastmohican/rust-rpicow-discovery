@@ -27,3 +27,7 @@ HD44780 | RPi Pico | Function
 
 ![HD44780](images/pico_hd44780_bb.png)
 
+### SSD1306 I2C
+
+![SSD1306](images/pico_ssd1306_bb.png)
+
