@@ -31,3 +31,14 @@ HD44780 | RPi Pico | Function
 
 ![SSD1306](images/pico_ssd1306_bb.png)
 
+
+### WS2812
+
+15-WS2813 | RPi Pico | Function
+--------|-------------|---------
+1 GND | Ground (0V) pin 40 | Ground
+2 VCC | 5V pin 38 | Power
+3 NC | - | Not connected
+4 SIG | Pi Pico GP6 (pin 9) |  1-wire serial data connection
+
+![Grove - RGB LED Stick (15-WS2813 Mini)](images/pico_neopixel_bb.png)
