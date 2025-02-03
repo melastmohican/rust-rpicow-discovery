@@ -5,11 +5,9 @@
 #![no_std]
 #![no_main]
 
-// The macro for our start-up function
-use rp_pico::entry;
 use defmt_rtt as _;
 use panic_probe as _;
-// Pull in any important traits
+use rp_pico::entry;
 use rp_pico::hal;
 use rp_pico::hal::pac;
 use rp_pico::hal::pio::PIOExt;
