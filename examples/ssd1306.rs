@@ -17,6 +17,9 @@
 #![no_std]
 #![no_main]
 
+use defmt_rtt as _;
+use panic_probe as _;
+
 use bsp::entry;
 
 use bsp::hal::{clocks::init_clocks_and_plls, pac, sio::Sio, watchdog::Watchdog};
@@ -63,7 +66,7 @@ fn main() -> ! {
     let sda_pin: Pin<_, FunctionI2C, _> = pins.gpio2.reconfigure();
     let scl_pin: Pin<_, FunctionI2C, _> = pins.gpio3.reconfigure();
 
-    let mut i2c = I2C::i2c1(
+    let i2c = I2C::i2c1(
         pac.I2C1,
         sda_pin,
         scl_pin,

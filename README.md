@@ -42,3 +42,9 @@ HD44780 | RPi Pico | Function
 4 SIG | Pi Pico GP6 (pin 9) |  1-wire serial data connection
 
 ![Grove - RGB LED Stick (15-WS2813 Mini)](images/pico_neopixel_bb.png)
+
+### ST7733S
+
+Using [Waveshare 160x80, General 0.96inch LCD display Module](https://www.waveshare.com/0.96inch-lcd-module.htm) with [Rust ST7735 driver](https://github.com/sajattack/st7735-lcd-rs)
+
+![ST7733S](images/pico_st7733s_bb.png)
